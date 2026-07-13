@@ -73,8 +73,8 @@ A RESTful backend API for managing a Cricket Club, built with Node.js and Expres
 **Body:**
 ```json
 {
-    "name": "Rahul Sharma",
-    "email": "rahul@cricket.com",
+    "name": "Taha Nawab",
+    "email": "taha@cricket.com",
     "password": "Cricket123"
 }
 ```
@@ -83,7 +83,7 @@ A RESTful backend API for managing a Cricket Club, built with Node.js and Expres
 **Body:**
 ```json
 {
-    "email": "rahul@cricket.com",
+    "email": "taha@cricket.com",
     "password": "Cricket123"
 }
 ```
@@ -94,8 +94,8 @@ A RESTful backend API for managing a Cricket Club, built with Node.js and Expres
     "data": {
         "user": {
             "id": 4,
-            "name": "Rahul Sharma",
-            "email": "rahul@cricket.com"
+            "name": "Taha Nawab",
+            "email": "taha@cricket.com"
         },
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
     }

@@ -90,7 +90,7 @@ Example local URI: `mongodb://localhost:27017/cricket_db`
 | GET | `/api/players/:id` | Get player by ID |
 | PUT | `/api/players/:id` | Update player |
 | DELETE | `/api/players/:id` | Delete player |
-| GET | `/api/players/search?team=India` | Filter players |
+| GET | `/api/players/search?team=Pakistan` | Filter players |
 
 ## Example Requests
 
@@ -98,11 +98,11 @@ Example local URI: `mongodb://localhost:27017/cricket_db`
 **Body:**
 ```json
 {
-    "name": "Rahul Sharma",
-    "email": "rahul@cricket.com",
+    "name": "Taha Nawab",
+    "email": "taha@cricket.com",
     "password": "Cricket123",
     "age": 25,
-    "city": "Delhi",
+    "city": "Karachi",
     "phone": "9876543210"
 }
 ```
@@ -111,10 +111,10 @@ Example local URI: `mongodb://localhost:27017/cricket_db`
 **Body:**
 ```json
 {
-    "name": "Virat Kohli",
+    "name": "Taha Nawab",
     "age": 34,
     "role": "Batsman",
-    "team": "India",
+    "team": "Pakistan",
     "stats": {
         "matches": 250,
         "runs": 12000,
